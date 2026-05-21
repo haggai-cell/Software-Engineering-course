@@ -19,6 +19,8 @@ public class Main {
     // function 1
     public static void AddnewMovies()
     {
+        System.out.println("Enter movie name");
+        String movieName = scanner.nextLine();
 
     }
 
@@ -42,7 +44,10 @@ public class Main {
     }
 
     // function 5
-    public static void
+    public static void Exit()
+    {
+
+    }
 
     public static void main(String[] args) throws IOException {
         String path = "C:\\Users\\hagay\\Downloads\\HW1\\HW1_input.txt";
